@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>León Santibañez</title>
+    <link rel="icon" href="/img/LS.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">León m. Santibañez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+<br><br><br>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/LeonCord..png" alt="">
+            </div>
+            <h1>LEÓN M. SANTIBAÑEZ</h1>
+            <h2>Entrenador, Estudiante, Disciplinado Y Lider</h2>
+            <div class="redes">
+                <a target="_blank" href="https://www.instagram.com/_leon.m.s_/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://www.instagram.com/leadertyfitness/"><i class="fa-brands fa-instagram"></i></a>
+                <a target="_blank" href="https://pin.it/5RZJLFO"><i class="fa-brands fa-pinterest"></i></a>
+                <a target="_blank" href="https://wa.me/5491164627801?text=Hola%20Le%C3%B3n!%20Me%20gustar%C3%ADa%20trabajar%20con%20vos."><i class="fa-brands fa-whatsapp"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/leon-santiba%C3%B1ez-0b9b68241/"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>                                                              
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy León Santibañez.</span> Personal Trainner, apasionado por como el deporte transforma vidas.
+                     Con casi 24 años. Líder y fundador de Leaderty Fitness, con el objetivo de guiar y motivar a quienes buscan mejorar su calidad de vida, 
+                     a través del entrenamiento y la disciplina."</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Edad</strong>
+                            23
+                        </li>
+                        <li>
+                            <strong>País</strong>
+                            Argentina
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            Leaderty Fitness
+                        </li>
+                        <li>
+                            <strong>Disponibilidad</strong>
+                            <span>PART TIME</span>
+                            <br> <br><span>NEGOCIABLE</span>
+                        </li>
+                        <li>
+                            <strong>Cargos</strong>
+                            <br><br> <span>EMPRENDEDOR</span> <span>PERSONAL TRAINNER</span> <br><br> <span>INSTRUCTOR</span>
+                        </li>
+                    </ul>
+                </div>
+<br>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses/Hobbys</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-brain"></i>
+                            <span>MEDITAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-handshake"></i>
+                            <span>AYUDAR</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a class="CV" target="_blank" download="CV" href="https://drive.google.com/file/d/1Nv79MvXIRIDLMCTJpBqZzgbkAYcpnsXY/view?usp=sharing">Descargar CV</a><i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+        
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Tecnicas -->
+                <div class="col">
+                    <h3>Tecnicas</h3>
+                    <div class="skill">
+                        <span>Office (Excel/Word)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseñador Web</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Planificación Personalizada</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Primeros Auxilios</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo de Grupos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Personales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Innovación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Profesorado en Ed. Fisica</h4>
+                        <span class="casa">Universidad Nacional de La Plata</span>
+                        <span class="fecha">2019 - actualidad</span>
+                        <p> 
+                            Sigo muy apasionado, como cuando empecé. Y mi siguiente objetivo, luego terminar
+                            el profesorado, es continuar con la licenciatura. Y de este modo, no solo
+                            mantenerme en un ámbito de influencia educativa, también poder investigar más
+                            acerca de lo que me apasiona, el entrenamiento y sus beneficios.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item izq">
+                        <h4>Cusos y Capasitaciones</h4>
+                        <span class="casa">Varias Fuentes y Recursos</span>
+                        <span class="fecha">Actualidad</span>
+                        <p> 
+                            Con bases y conocimientos por parte de reconocidas funtes: 
+                            IFBB academy arg. / Interval cursos online / FHI.online / Academia Olimpia. <br>
+                            Capasitaciones en: RCP (Reanianimación Cardio-Pulmonar) / Prevención y Manejo de Lesiones. <br>
+                            <br> (Sin examenes ni credenciales proporcionadas)
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Secundaria (Completo)</h4>
+                        <span class="casa">Benito Quinquela Martín</span>
+                        <span class="fecha">2018</span>
+                        <p> 
+                            Muy buenos aprendizajes, permitiéndome contemplar varias áreas. <br> Donde encontré
+                            la salud como camino. Y donde empecé a sembrar mis sueños de poder ayudar a las
+                            personas a cambiar su vida, partiendo desde el entrenamiento.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Autodidacta</h4>
+                        <span class="casa">Internet y Libros</span>
+                        <span class="fecha">Siempre</span>
+                        <p> 
+                            Desde que empecé la universidad, mi pasión por descubrir y aprender cosas nuevas
+                            floreció. <br> Y estaba claro que en la universidad no lo aprendería todo. Por
+                            lo que mediante cursos online, libros, vídeos y experimentando. <br> Voy aprendiendo
+                            y descubriendo más el mundo.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Personal Trainner & CEO</h4>
+                        <span class="casa">Leaderty Fitness</span>
+                        <span class="fecha">2018 - Actualidad</span>
+                        <p>
+                            Dedicado a transformar vidas a través del fitness, combinando salud física, mental y emocional. 
+                            Es un camino de crecimiento personal, 
+                            donde el esfuerzo y la disciplina se unen con la solidaridad y el propósito de ayudar a otros. 
+                            Buscamos impactar positivamente en cada persona, guiándola hacia una vida plena y consciente.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Instructor & Monitor de Gimnasio</h4>
+                        <span class="casa">SinLimites Gym, Berazategui</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>
+                            Unico encargado de sala musculación, Control de Caja, Atención al cliente y mas..
+                            Clases personalizadas Grupales e Individules, Dosificación de Rutinas y 
+                            Preparación Fisica en deportistas de distintos deportes.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Preparador Fisico</h4>
+                        <span class="casa">Club Nahuel, Varela</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>
+                            Preparador físico de un grupo muy numeroso de patinadores a nivel nacional e internacional.
+                            Con una planificación y un seguimiento acorde a las necesidades de cada competidora.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Instructor de TaeKwon-Do</h4>
+                        <span class="casa">Club Nahuel, Varela</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Práctico Tae Kwon-Do desde hace 14 años. Y mis clases son actuales, con mucha preparación
+                            física, haciendo hincapié en el desarrollo de la fuerza-potencia y en la resistencia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Vendedor Ambulante</h4>
+                        <span class="casa">Waffis</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>
+                            Durante la pandemia, desarrolle y planifique un proyecto de venta de Waffles.
+                            Donde tuve constante manejo de Caja, Atención al cliente e Innovación para destacar
+                            mi producto.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinador & Guia</h4>
+                        <span class="casa">Naturaleza Viva</span>
+                        <span class="fecha">En Temporada</span>
+                        <p>
+                            Reserva Natural, en la cual coordine y guíe varios grupos con numerosos contingentes.
+                            Destacando mi capacidad de labor bajo presión, y de poder expresarme correctamente
+                            ante grandes grupos de diversas edades.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <a href="https://www.instagram.com/leadertyfitness/" target="_blank">
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/LogoLFweb.png" alt="Entren Por Vos">
+                    <div class="overlay">
+                        <h3>LeadertyFitness</h3>
+                        <p>Entrenamiento,</p><p>Estilo de Vida</p><p>y Proposito</p>
+                    </div>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/leon.sabon.tkd/" target="_blank">
+                <div class="proyecto">
+                    <img src="img/tae1.png" alt="Tae Kwon-Do">
+                    <div class="overlay">
+                        <h3>Tae Kwon-Do</h3>
+                        <p>Mi camino Espiritual</p>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a target="_blank" href="https://www.instagram.com/leon.ms.coach/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://www.instagram.com/leadertyfitness/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://pin.it/5RZJLFO"><i class="fa-brands fa-pinterest"></i></a>
+            <a target="_blank" href="https://wa.me/5491164627801?text=Hola%20Le%C3%B3n!%20Me%20gustar%C3%ADa%20trabajar%20con%20vos."><i class="fa-brands fa-whatsapp"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/leon-santiba%C3%B1ez-0b9b68241/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
